@@ -24,7 +24,7 @@
     "create-local": "graph create --node http://127.0.0.1:8020 motif-ERC721-subgraph",
     "deploy-local": "graph deploy --ipfs http://localhost:5001 --node http://127.0.0.1:8020/ motif-ERC721-subgraph",
     "create-motif": "graph create --node http://127.0.0.1:8020 motif-ERC721-subgraph",
-    "deploy-motif": "graph deploy --ipfs http://localhost:5001 --node http://127.0.0.1:8020/motif-ERC721-subgraph", 
+    "deploy-motif": "graph deploy --ipfs http://localhost:5001 --node http://127.0.0.1:8020/ motif-ERC721-subgraph", 
     "deploy-all": "yarn deploy:xdai && yarn deploy:sokol && yarn deploy:mainnet && yarn deploy:kovan && yarn deploy:rinkeby"
   },
   "dependencies": {
